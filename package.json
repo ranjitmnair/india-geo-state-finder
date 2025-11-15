@@ -1,11 +1,11 @@
 {
-  "name": "india-geo-state-finder",  
-  "version": "1.0.0",
+  "name": "india-geo-state-finder",
+  "version": "1.0.1",
   "description": "Finds the Indian state corresponding to a given latitude and longitude using GeoJSON data.",
-  "main": "index.js",                 
+  "main": "index.js",
   "files": [
     "index.js",
-    "data/"                           
+    "data/"
   ],
   "keywords": [
     "india",
