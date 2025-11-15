@@ -8,14 +8,14 @@ Install the package using npm:
 
 Bash
 
-npm install @india-geo/state-finder
+npm install @india-geo-state-finder
 💡 Quick Usage
 The package exports a single function, findState(lat, lon), which returns the state name or null if the coordinates fall outside any defined boundary.
 
-Example: Finding the State of Delhi (NCR)
+Example: Finding the State of Maharashtra
 JavaScript
 
-const findState = require('@india-geo/state-finder');
+const findState = require('@india-geo-state-finder');
 
 // Coordinates for Mumbai (Latitude: 18.9582, Longitude: 72.8321)
 const lat = 18.9582; 
@@ -36,7 +36,7 @@ If you are using modern Node.js or an ES Module environment ("type": "module" in
 
 JavaScript
 
-import findState from '@india-geo/state-finder';
+import findState from '@india-geo-state-finder';
 
 // Coordinates for Chennai, Tamil Nadu
 const state = findState(13.0827, 80.2707); 
