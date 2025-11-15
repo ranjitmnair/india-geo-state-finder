@@ -1,0 +1,25 @@
+{
+  "name": "india-geo-state-finder",  
+  "version": "1.0.0",
+  "description": "Finds the Indian state corresponding to a given latitude and longitude using GeoJSON data.",
+  "main": "index.js",                 
+  "files": [
+    "index.js",
+    "data/"                           
+  ],
+  "keywords": [
+    "india",
+    "state",
+    "geolocation",
+    "latlng",
+    "indian-state",
+    "geo-lookup",
+    "geo-json"
+  ],
+  "author": "Ranjit",
+  "license": "MIT",
+  "dependencies": {
+    "@turf/boolean-point-in-polygon": "^6.x.x",
+    "@turf/helpers": "^6.x.x"
+  }
+}
